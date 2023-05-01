@@ -1,0 +1,39 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+.container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        
+}
+button{
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 22px;
+}
+.sketch-container{
+    
+    width:960px;
+    border: 1px solid black;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+
+}
+.sketch-pixel{
+    box-sizing: border-box;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    margin: 0;
+}
